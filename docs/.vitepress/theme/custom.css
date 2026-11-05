@@ -308,3 +308,17 @@ a:hover, .VPDoc a:hover { color: var(--vp-c-text-1) !important; }
 .dashboard-notes p { margin:9px 0 0; color:var(--vp-c-text-2); font-size:11px; line-height:1.75; }
 @media(max-width:760px) { .compare-picker { grid-template-columns:repeat(2,minmax(0,1fr)); } .salary-chart { grid-template-columns:1fr; } }
 @media(max-width:520px) { .insight-widget-head { align-items:flex-start; flex-direction:column; } .compare-picker { grid-template-columns:1fr; } .metric-summary { grid-template-columns:1fr; } .dashboard-controls label { min-width:100%; } }
+
+
+.major-pathways { margin:36px 0 10px; }
+.major-pathways-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:20px; margin-bottom:18px; }
+.major-pathways-heading h2 { margin:7px 0 6px; border:0; font-size:25px; letter-spacing:-.035em; color:var(--vp-c-text-1); }
+.major-pathways-heading p { margin:0; color:var(--vp-c-text-2); font-size:13px; line-height:1.6; }
+.major-pathways-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:11px; }
+.major-pathway-card { min-width:0; padding:17px 18px; border:1px solid var(--vp-c-divider); border-radius:12px; background:var(--vp-c-bg-elv); }
+.major-pathway-group { display:block; color:var(--vp-c-text-3); font-size:9px; font-weight:800; letter-spacing:.12em; }
+.major-pathway-card h3 { margin:10px 0 8px; color:var(--vp-c-text-1); font-size:14px; line-height:1.4; letter-spacing:-.015em; }
+.major-pathway-card p { margin:0; color:var(--vp-c-text-2); font-size:11px; line-height:1.7; }
+.major-pathways-note { margin:16px 0 0; color:var(--vp-c-text-2); font-size:11px; line-height:1.7; }
+@media(max-width:760px) { .major-pathways-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .major-pathways-heading { align-items:flex-start; flex-direction:column; } .major-pathways-grid { grid-template-columns:1fr; } }
