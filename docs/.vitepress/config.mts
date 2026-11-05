@@ -6,6 +6,7 @@ export default defineConfig({
   description: 'Explore emerging careers, skills, and opportunities in artificial intelligence.',
   base: '/ai-career-research/',
   cleanUrls: true,
+  appearance: true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
