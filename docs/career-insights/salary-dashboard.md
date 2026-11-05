@@ -6,7 +6,7 @@ description: Explore official U.S. salary and employment projections relevant to
 <div class="role-hero">
   <div class="career-eyebrow">CAREER INTELLIGENCE <span>•</span> LABOR MARKET DATA</div>
   <h1>Salary &amp; Job Market</h1>
-  <p class="role-lede">Explore national wage medians and projected employment trends for occupations connected to the growing AI workforce.</p>
+  <p class="role-lede">Explore national wage medians, projected employment trends, and the college majors that can prepare students for AI-related roles.</p>
   <div class="career-intro-meta"><span>United States</span><span>May 2024 wage data</span><span>2024–34 projections</span></div>
 </div>
 
