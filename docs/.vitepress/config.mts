@@ -33,8 +33,24 @@ export default defineConfig({
         { text: 'Communication & Teamwork', link: '/skills/communication-teamwork' },
         { text: 'Critical Judgment & Responsible AI', link: '/skills/critical-judgment' }
       ] }],
-      '/industry-trends/': [{ text: 'Industry Trends', items: [{ text: 'Overview', link: '/industry-trends/' }] }],
-      '/resources/': [{ text: 'Resources', items: [{ text: 'Research & Learning', link: '/resources/' }] }]
+      '/industry-trends/': [{ text: 'Industry Trends', items: [
+        { text: 'Overview', link: '/industry-trends/' },
+        { text: 'Generative AI at Work', link: '/industry-trends/generative-ai-at-work' },
+        { text: 'AI Agents & Automation', link: '/industry-trends/ai-agents-automation' },
+        { text: 'Demand for AI Capabilities', link: '/industry-trends/ai-skills-workforce' },
+        { text: 'Privacy, Security & Responsibility', link: '/industry-trends/responsible-ai-governance' },
+        { text: 'AI Across Industries', link: '/industry-trends/ai-across-industries' },
+        { text: 'AI-Native Software Development', link: '/industry-trends/ai-native-development' }
+      ] }],
+      '/resources/': [{ text: 'Resources', items: [
+        { text: 'Research & Learning', link: '/resources/' },
+        { text: 'Government Statistics', link: '/resources/government-statistics' },
+        { text: 'Academic Research', link: '/resources/academic-research' },
+        { text: 'Industry Reports', link: '/resources/industry-reports' },
+        { text: 'Job Postings', link: '/resources/job-postings' },
+        { text: 'Technical Documentation', link: '/resources/technical-documentation' },
+        { text: 'Structured Courses', link: '/resources/structured-courses' }
+      ] }]
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GuilbertH19/ai-career-research' }
