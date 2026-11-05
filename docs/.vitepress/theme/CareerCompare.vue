@@ -14,7 +14,7 @@ const selected = ref(['ai-engineer','agent-engineer'])
 const chosen = computed(() => selected.value.map(id => careers.find(c => c.id === id)).filter(Boolean))
 function toggle(id) {
   if (selected.value.includes(id)) {
-    if (selected.value.length > 2) selected.value = selected.value.filter(x => x !== id)
+    if (selected.value.length > 1) selected.value = selected.value.filter(x => x !== id)
   } else if (selected.value.length < 3) selected.value = [...selected.value, id]
 }
 </script>
