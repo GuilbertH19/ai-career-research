@@ -7,6 +7,20 @@ const occupations = [
  { id:'research', name:'Computer & information research scientists', median:140910, growth:20, employment:48300, openings:3200, year:'May 2024', label:'Closest broad proxy for research-oriented AI roles', source:'https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm' },
  { id:'network', name:'Computer network architects', median:130390, growth:null, employment:null, openings:null, year:'May 2024', label:'Related architecture reference for AI Solutions Architect; not a direct match', source:'https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm' }
 ]
+const majorPathways = [
+ { name:'AI Engineer', group:'BUILD & INTEGRATE', majors:'Computer Science; Artificial Intelligence; Software Engineering; Computer Engineering; Machine Learning; Data Science; Statistics; Applied Mathematics' },
+ { name:'AI Agent Engineer', group:'AUTONOMOUS SYSTEMS', majors:'Computer Science; Artificial Intelligence; Software Engineering; Computer Engineering; Data Science; Computational Linguistics; Statistics; Information Systems' },
+ { name:'AI Forward Engineer', group:'AI-NATIVE DEVELOPMENT', majors:'Computer Science; Software Engineering; Computer Engineering; Information Technology; Human-Computer Interaction; Information Systems; Interaction Design' },
+ { name:'AI Forward Deployed Engineer', group:'CUSTOMER-EMBEDDED AI', majors:'Computer Science; Software Engineering; Computer Engineering; Artificial Intelligence; Data Science; Information Systems; Applied Mathematics; Statistics; Electrical Engineering' },
+ { name:'AI Solutions Architect', group:'STRATEGY & ARCHITECTURE', majors:'Computer Science; Computer Engineering; Software Engineering; Information Technology; Information Systems; Cybersecurity; Network Engineering; Data Science' },
+ { name:'Machine Learning Engineer', group:'MODEL DEVELOPMENT', majors:'Computer Science; Machine Learning; Artificial Intelligence; Data Science; Statistics; Applied Mathematics; Computer Engineering' },
+ { name:'MLOps Engineer', group:'PRODUCTION & INFRASTRUCTURE', majors:'Computer Science; Software Engineering; Computer Engineering; Information Technology; Data Engineering; Information Systems' },
+ { name:'Data Scientist', group:'DATA & ANALYTICS', majors:'Data Science; Statistics; Applied Mathematics; Computer Science; Economics; Operations Research' },
+ { name:'AI Research Engineer', group:'RESEARCH & EXPERIMENTATION', majors:'Computer Science; Artificial Intelligence; Machine Learning; Mathematics; Applied Mathematics; Statistics; Physics; Electrical Engineering' },
+ { name:'AI Data Engineer', group:'DATA PLATFORMS', majors:'Data Engineering; Computer Science; Information Systems; Software Engineering; Data Science; Computer Engineering' },
+ { name:'AI Robotics Engineer', group:'ROBOTICS & INTELLIGENT SYSTEMS', majors:'Robotics Engineering; Mechanical Engineering; Electrical Engineering; Computer Engineering; Computer Science; Mechatronics' },
+ { name:'AI Security Engineer', group:'SECURITY & TRUST', majors:'Cybersecurity; Computer Science; Information Assurance; Computer Engineering; Information Technology; Software Engineering' }
+]
 const metric = ref('median')
 const selected = ref('all')
 const filtered = computed(() => selected.value === 'all' ? occupations : occupations.filter(o => o.id === selected.value))
@@ -55,5 +69,19 @@ function barWidth(o) {
    <p>The computer network architect wage is shown as a related architecture reference. Its growth rate is intentionally not plotted here because the page uses a consistent 2024–34 projection set and the corresponding BLS profile has changed its projection period in later updates.</p>
    <p>Median annual wages are from May 2024. Growth rates and annual openings are from the BLS 2024–34 Employment Projections. Figures are rounded as published and can vary by region, industry, experience, and employer.</p>
   </div>
+  <section class="major-pathways">
+   <div class="major-pathways-heading">
+    <div><span class="insight-kicker">EDUCATION &amp; CAREER PREPARATION</span><h2>College majors by AI career path</h2><p>Explore academic programs that can build a foundation for each role in the comparison tool.</p></div>
+    <span class="insight-count">12 career paths</span>
+   </div>
+   <div class="major-pathways-grid">
+    <article v-for="pathway in majorPathways" :key="pathway.name" class="major-pathway-card">
+     <span class="major-pathway-group">{{ pathway.group }}</span>
+     <h3>{{ pathway.name }}</h3>
+     <p>{{ pathway.majors }}</p>
+    </article>
+   </div>
+   <p class="major-pathways-note">These are suggested academic pathways, not required degrees or hiring guarantees. Program names vary by college, and students can build relevant preparation through related coursework, projects, internships, and experience. Check current job postings for each employer’s requirements.</p>
+  </section>
  </section>
 </template>
