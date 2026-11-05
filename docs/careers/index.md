@@ -8,7 +8,7 @@ description: Explore emerging AI careers through clear, research-focused role pr
   <h1>AI Career Profiles</h1>
   <p class="career-lede">A closer look at the roles shaping how artificial intelligence is built, integrated, and brought into the real world.</p>
   <div class="career-intro-meta">
-    <span>04 featured roles</span>
+    <span>05 featured roles</span>
     <span>Responsibilities</span>
     <span>Skills &amp; tools</span>
     <span>Career pathways</span>
@@ -47,6 +47,12 @@ description: Explore emerging AI careers through clear, research-focused role pr
     <h3>AI Solutions Architect</h3>
     <p>Connects organizational goals with secure, scalable AI systems and practical technology choices.</p>
     <div class="career-card-bottom"><span>Architecture · Cloud · Strategy</span><strong>Explore role <span>↗</span></strong></div>
+  </a>
+  <a class="career-card" href="/ai-career-research/careers/ai-forward-deployed-engineer">
+    <div class="career-card-top"><span class="career-number">05</span><span class="career-type">CUSTOMER-EMBEDDED AI</span></div>
+    <h3>AI Forward Deployed Engineer</h3>
+    <p>Builds and deploys AI solutions alongside customer teams, connecting software, models, and real business workflows.</p>
+    <div class="career-card-bottom"><span>Applied AI · Deployment · Clients</span><strong>Explore role <span>↗</span></strong></div>
   </a>
 </div>
 
