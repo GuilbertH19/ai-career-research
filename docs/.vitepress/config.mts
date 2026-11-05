@@ -13,7 +13,11 @@ export default defineConfig({
       { text: 'AI Careers', link: '/careers/' },
       { text: 'Skills', link: '/skills/' },
       { text: 'Industry Trends', link: '/industry-trends/' },
-      { text: 'Resources', link: '/resources/' }
+      { text: 'Resources', link: '/resources/' },
+      { text: 'Career Insights', items: [
+        { text: 'Career Comparison', link: '/career-insights/compare' },
+        { text: 'Salary & Job Market', link: '/career-insights/salary-dashboard' }
+      ] }
     ],
     sidebar: {
       '/careers/': [
