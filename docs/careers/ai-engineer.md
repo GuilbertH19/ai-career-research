@@ -41,4 +41,11 @@ description: Explore the responsibilities, skills, tools, and career pathway of 
   <div><span>03</span><strong>Document your work</strong><p>Explain design choices, limitations, tools, and what you would improve next.</p></div>
 </div>
 
+<div class="career-section-heading"><div><div class="career-eyebrow">COLLEGE MAJORS</div><h2>Degrees that can lead to this role</h2></div><p>There is no single required major. These programs build different parts of the skill set employers look for.</p></div>
+<div class="role-skill-panels">
+  <div><strong>Closest technical majors</strong><p>Computer Science, Artificial Intelligence, Software Engineering, Computer Engineering, and Machine Learning.</p></div>
+  <div><strong>Math and data majors</strong><p>Data Science, Statistics, Applied Mathematics, Mathematics, and Computational Science.</p></div>
+  <div><strong>Related pathways</strong><p>Information Technology, Information Systems, Electrical Engineering, or Computer Information Systems, paired with strong programming and AI projects.</p></div>
+</div>
+
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research note</strong><p>Job titles and qualifications vary. Compare current job postings and use dated, location-specific sources before adding salary or employment-outlook figures.</p></div></div>
