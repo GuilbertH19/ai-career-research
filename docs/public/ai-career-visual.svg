@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" fill="none">
+  <defs>
+    <linearGradient id="a" x1="110" y1="70" x2="530" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#8B9CFF"/><stop offset=".55" stop-color="#6D5DFB"/><stop offset="1" stop-color="#20C7C9"/></linearGradient>
+    <linearGradient id="b" x1="180" y1="130" x2="450" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#202B55"/><stop offset="1" stop-color="#171B31"/></linearGradient>
+    <filter id="glow" x="0" y="0" width="640" height="520" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <circle cx="320" cy="260" r="170" fill="url(#a)" opacity=".2" filter="url(#glow)"/>
+  <circle cx="320" cy="260" r="188" stroke="url(#a)" stroke-opacity=".25" stroke-width="1.5" stroke-dasharray="5 11"/>
+  <circle cx="320" cy="260" r="145" fill="url(#b)" stroke="url(#a)" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M320 160v200M220 260h200M250 190l140 140m0-140L250 330" stroke="url(#a)" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="250" y="190" width="140" height="140" rx="30" fill="#202846" stroke="url(#a)" stroke-width="3"/>
+  <path d="M290 240c0-16 13-29 29-29h2c16 0 29 13 29 29v41c0 16-13 29-29 29h-2c-16 0-29-13-29-29v-41Z" stroke="#A9B5FF" stroke-width="9" stroke-linecap="round"/>
+  <path d="M303 260h34m-17-17v34" stroke="#39D4D1" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#AAB8FF" stroke="#202846" stroke-width="7"><circle cx="320" cy="73" r="17"/><circle cx="510" cy="260" r="17"/><circle cx="320" cy="447" r="17"/><circle cx="130" cy="260" r="17"/></g>
+  <g stroke="url(#a)" stroke-width="3" stroke-linecap="round"><path d="M320 90v80m173 90h-83m-90 190v-90m-173-90h83"/></g>
+  <g fill="#36D2D0"><circle cx="450" cy="125" r="8"/><circle cx="190" cy="395" r="8"/><circle cx="475" cy="390" r="6"/><circle cx="170" cy="130" r="6"/></g>
+  <g stroke="#8B9CFF" stroke-width="2" stroke-opacity=".7"><path d="m450 125-58 65m83 200-85-60M170 130l80 60m-60 205 55-65"/></g>
+</svg>
