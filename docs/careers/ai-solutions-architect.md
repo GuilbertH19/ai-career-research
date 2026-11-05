@@ -41,4 +41,11 @@ description: Explore the responsibilities, skills, tools, and career pathway of 
   <div><span>03</span><strong>Explain your decisions</strong><p>Present architecture choices, alternatives, risks, and the reasons behind your recommendations.</p></div>
 </div>
 
+<div class="career-section-heading"><div><div class="career-eyebrow">COLLEGE MAJORS</div><h2>Degrees that can lead to this role</h2></div><p>Architects often build experience in software, cloud, infrastructure, or enterprise technology before specializing in AI.</p></div>
+<div class="role-skill-panels">
+  <div><strong>Closest technical majors</strong><p>Computer Science, Computer Engineering, Software Engineering, Information Technology, and Information Systems.</p></div>
+  <div><strong>Infrastructure and security majors</strong><p>Cybersecurity, Network Engineering, Cloud Computing, and Electrical or Computer Engineering.</p></div>
+  <div><strong>Business and data pathways</strong><p>Data Science, Business Analytics, Management Information Systems, or Business Information Systems, supported by cloud and systems-design experience.</p></div>
+</div>
+
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research note</strong><p>Employer expectations differ by industry and seniority. Check current job postings and relevant cloud or AI certification requirements before drawing conclusions.</p></div></div>
