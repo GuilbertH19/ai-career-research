@@ -24,7 +24,15 @@ export default defineConfig({
           { text: 'AI Solutions Architect', link: '/careers/ai-solutions-architect' }
         ]}
       ],
-      '/skills/': [{ text: 'Skills', items: [{ text: 'Skills Overview', link: '/skills/' }] }],
+      '/skills/': [{ text: 'Skills', items: [
+        { text: 'Skills Overview', link: '/skills/' },
+        { text: 'Programming & Software', link: '/skills/programming-software' },
+        { text: 'Data & Mathematics', link: '/skills/data-mathematics' },
+        { text: 'Machine Learning', link: '/skills/machine-learning' },
+        { text: 'Cloud & Architecture', link: '/skills/cloud-architecture' },
+        { text: 'Communication & Teamwork', link: '/skills/communication-teamwork' },
+        { text: 'Critical Judgment & Responsible AI', link: '/skills/critical-judgment' }
+      ] }],
       '/industry-trends/': [{ text: 'Industry Trends', items: [{ text: 'Overview', link: '/industry-trends/' }] }],
       '/resources/': [{ text: 'Resources', items: [{ text: 'Research & Learning', link: '/resources/' }] }]
     },
