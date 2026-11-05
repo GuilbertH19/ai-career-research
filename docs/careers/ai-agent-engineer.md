@@ -41,4 +41,11 @@ description: Explore the responsibilities, skills, tools, and career pathway of 
   <div><span>03</span><strong>Evaluate and document</strong><p>Test success rates, failure cases, permissions, and when a human should review an action.</p></div>
 </div>
 
+<div class="career-section-heading"><div><div class="career-eyebrow">COLLEGE MAJORS</div><h2>Degrees that can lead to this role</h2></div><p>Agent engineering combines software development, data, and the evaluation of AI systems.</p></div>
+<div class="role-skill-panels">
+  <div><strong>Closest technical majors</strong><p>Computer Science, Artificial Intelligence, Software Engineering, Computer Engineering, and Machine Learning.</p></div>
+  <div><strong>Data and quantitative majors</strong><p>Data Science, Statistics, Applied Mathematics, Mathematics, and Computational Linguistics.</p></div>
+  <div><strong>Related pathways</strong><p>Information Systems, Cybersecurity, or Human-Computer Interaction can be relevant when combined with backend programming, APIs, and AI evaluation experience.</p></div>
+</div>
+
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research note</strong><p>Agent Engineer is an evolving title. Compare employer descriptions and investigate how each organization defines autonomy, evaluation, and human approval.</p></div></div>
