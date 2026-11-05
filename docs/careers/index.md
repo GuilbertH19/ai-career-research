@@ -24,25 +24,25 @@ description: Explore emerging AI careers through clear, research-focused role pr
 </div>
 
 <div class="career-grid">
-  <a class="career-card" href="/careers/ai-engineer">
+  <a class="career-card" href="/ai-career-research/careers/ai-engineer">
     <div class="career-card-top"><span class="career-number">01</span><span class="career-type">BUILD &amp; INTEGRATE</span></div>
     <h3>AI Engineer</h3>
     <p>Turns AI models and techniques into reliable software products, services, and business applications.</p>
     <div class="career-card-bottom"><span>Software · Models · Systems</span><strong>Explore role <span>↗</span></strong></div>
   </a>
-  <a class="career-card" href="/careers/ai-agent-engineer">
+  <a class="career-card" href="/ai-career-research/careers/ai-agent-engineer">
     <div class="career-card-top"><span class="career-number">02</span><span class="career-type">AUTONOMOUS SYSTEMS</span></div>
     <h3>AI Agent Engineer</h3>
     <p>Designs AI-powered agents that use tools, retrieve information, and coordinate multi-step workflows.</p>
     <div class="career-card-bottom"><span>Agents · APIs · Evaluation</span><strong>Explore role <span>↗</span></strong></div>
   </a>
-  <a class="career-card" href="/careers/ai-forward-engineer">
+  <a class="career-card" href="/ai-career-research/careers/ai-forward-engineer">
     <div class="career-card-top"><span class="career-number">03</span><span class="career-type">AI-NATIVE DEVELOPMENT</span></div>
     <h3>AI Forward Engineer</h3>
     <p>Applies AI-assisted development practices to prototype, build, and improve software experiences.</p>
     <div class="career-card-bottom"><span>Prototyping · Product · Code</span><strong>Explore role <span>↗</span></strong></div>
   </a>
-  <a class="career-card" href="/careers/ai-solutions-architect">
+  <a class="career-card" href="/ai-career-research/careers/ai-solutions-architect">
     <div class="career-card-top"><span class="career-number">04</span><span class="career-type">STRATEGY &amp; ARCHITECTURE</span></div>
     <h3>AI Solutions Architect</h3>
     <p>Connects organizational goals with secure, scalable AI systems and practical technology choices.</p>
