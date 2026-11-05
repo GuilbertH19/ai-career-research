@@ -1,5 +1,4 @@
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
 import CareerCompare from './CareerCompare.vue'
 import SalaryDashboard from './SalaryDashboard.vue'
 import './custom.css'
