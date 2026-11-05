@@ -53,6 +53,21 @@ Artificial intelligence is creating new ways to solve problems, build products, 
   </a>
 </div>
 
+## Explore career insights
+
+<div class="home-grid">
+  <a class="home-card" href="/ai-career-research/career-insights/compare">
+    <span class="home-card-kicker">04 / CAREER COMPARISON</span>
+    <strong>Compare AI career paths</strong>
+    <span>Evaluate responsibilities, skills, education pathways, and occupational references side by side.</span>
+  </a>
+  <a class="home-card" href="/ai-career-research/career-insights/salary-dashboard">
+    <span class="home-card-kicker">05 / LABOR MARKET</span>
+    <strong>Explore salary and job trends</strong>
+    <span>Review official U.S. wage medians and employment projections with transparent sources.</span>
+  </a>
+</div>
+
 ## About this project
 
 This is an educational research project. Job titles and requirements vary by employer, and salary or employment-outlook information should be checked against current, location-specific sources.
