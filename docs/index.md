@@ -3,8 +3,11 @@ layout: home
 
 hero:
   name: The Future of AI Careers
-  text: Explore the jobs shaping tomorrow
-  tagline: A student research hub about emerging roles, essential skills, and career opportunities in artificial intelligence.
+  text: Discover the people building what comes next.
+  tagline: Explore emerging AI roles, the skills behind them, and the opportunities shaping tomorrow's workforce.
+  image:
+    src: /ai-career-visual.svg
+    alt: Abstract illustration of an AI network
   actions:
     - theme: brand
       text: Explore AI Careers
@@ -14,23 +17,47 @@ hero:
       link: /skills/
 
 features:
-  - title: Explore New Roles
-    details: Learn what AI engineers, agent engineers, forward engineers, and solutions architects do.
-  - title: Understand the Skills
-    details: Explore technical, analytical, and communication skills used across AI careers.
-  - title: Follow Industry Trends
-    details: See how AI is changing industries, organizations, and the future of work.
+  - title: Explore Emerging Roles
+    details: Understand what AI engineers, agent engineers, forward engineers, and solutions architects do.
+    link: /careers/
+    linkText: Browse career profiles →
+  - title: Build Relevant Skills
+    details: Explore programming, machine learning, data, communication, and responsible AI.
+    link: /skills/
+    linkText: View essential skills →
+  - title: Understand the Industry
+    details: Follow the developments changing how organizations use AI and how work gets done.
+    link: /industry-trends/
+    linkText: Explore industry trends →
 ---
+
+## Navigate the AI career landscape
+
+Artificial intelligence is creating new ways to solve problems, build products, and improve everyday work. This research hub breaks down the roles behind those changes and the skills people use in them.
+
+<div class="home-grid">
+  <a class="home-card" href="/ai-career-research/careers/">
+    <span class="home-card-kicker">01 / CAREER PATHS</span>
+    <strong>Find a role that fits your interests</strong>
+    <span>Compare responsibilities, tools, and learning pathways across emerging AI careers.</span>
+  </a>
+  <a class="home-card" href="/ai-career-research/skills/">
+    <span class="home-card-kicker">02 / SKILL BUILDING</span>
+    <strong>See what employers look for</strong>
+    <span>Explore the technical and professional foundations used in AI-related work.</span>
+  </a>
+  <a class="home-card" href="/ai-career-research/resources/">
+    <span class="home-card-kicker">03 / RESEARCH</span>
+    <strong>Go deeper with credible sources</strong>
+    <span>Use research, job postings, and learning resources to investigate each career.</span>
+  </a>
+</div>
 
 ## About this project
 
-Artificial intelligence is changing how people work and how organizations solve problems. This site explores career paths connected to AI and explains the responsibilities, skills, tools, and learning pathways associated with them.
+This is an educational research project. Job titles and requirements vary by employer, and salary or employment-outlook information should be checked against current, location-specific sources.
 
-The information is intended for educational research. Job titles and requirements vary by employer, and salary or outlook information should always be checked against current sources.
-
-## Start exploring
-
-- [Browse AI career profiles](/careers/)
-- [Review important skills](/skills/)
-- [Read about industry trends](/industry-trends/)
-- [Find research and learning resources](/resources/)
+<div class="home-note">
+  <strong>Research with context.</strong>
+  <span>Every statistic should include its source, publication date, and geographic scope. Forecasts are estimates, not guarantees.</span>
+</div>
