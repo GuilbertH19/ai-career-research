@@ -1,15 +1,31 @@
-# Industry Trends
+---
+title: Industry Trends
+description: Examine how AI is changing products, work, and organizations.
+---
 
-AI is influencing software development, healthcare, education, finance, manufacturing, and many other fields. The effects differ by task, industry, and organization.
+<div class="section-intro">
+  <div class="career-eyebrow">INDUSTRY INTELLIGENCE <span>•</span> 2026 RESEARCH EDITION</div>
+  <h1>Industry Trends</h1>
+  <p class="section-lede">Understand where artificial intelligence is being adopted, which capabilities are gaining attention, and how organizations are adapting.</p>
+  <div class="career-intro-meta"><span>Adoption</span><span>Workforce shifts</span><span>Governance</span></div>
+</div>
 
-## Topics to investigate
+<div class="career-section-heading"><div><div class="career-eyebrow">AREAS TO WATCH</div><h2>Signals shaping the field</h2></div><p>These themes provide a framework for research. Their impact varies by industry, organization, and use case.</p></div>
 
-- Generative AI in everyday business workflows.
-- AI agents and task automation.
-- Demand for AI skills across occupations.
-- Data privacy, security, and responsible AI.
-- Human oversight and changing job responsibilities.
+<div class="career-grid">
+  <article class="career-card trend-card"><div class="career-card-top"><span class="career-number">01</span><span class="career-type">BUSINESS ADOPTION</span></div><h3>Generative AI at work</h3><p>Organizations are exploring AI assistants for research, drafting, analysis, customer support, and internal workflows.</p><div class="career-card-bottom"><span>Productivity · Integration · Governance</span></div></article>
+  <article class="career-card trend-card"><div class="career-card-top"><span class="career-number">02</span><span class="career-type">EMERGING SYSTEMS</span></div><h3>AI agents &amp; automation</h3><p>Agent-based systems can coordinate tools and multi-step tasks, increasing the importance of evaluation and human controls.</p><div class="career-card-bottom"><span>Agents · Tool use · Reliability</span></div></article>
+  <article class="career-card trend-card"><div class="career-card-top"><span class="career-number">03</span><span class="career-type">TALENT &amp; SKILLS</span></div><h3>Demand for AI capabilities</h3><p>Employers are adapting role requirements as AI skills become relevant across technical and nontechnical occupations.</p><div class="career-card-bottom"><span>Hiring · Reskilling · Job design</span></div></article>
+  <article class="career-card trend-card"><div class="career-card-top"><span class="career-number">04</span><span class="career-type">TRUST &amp; GOVERNANCE</span></div><h3>Privacy, security &amp; responsibility</h3><p>AI adoption raises questions about data protection, model risks, transparency, accountability, and oversight.</p><div class="career-card-bottom"><span>Privacy · Security · Risk</span></div></article>
+  <article class="career-card trend-card"><div class="career-card-top"><span class="career-number">05</span><span class="career-type">INDUSTRY APPLICATIONS</span></div><h3>AI across sectors</h3><p>Healthcare, education, finance, manufacturing, and other sectors are testing different AI applications and constraints.</p><div class="career-card-bottom"><span>Use cases · Regulation · Outcomes</span></div></article>
+  <article class="career-card trend-card"><div class="career-card-top"><span class="career-number">06</span><span class="career-type">ENGINEERING PRACTICE</span></div><h3>AI-native software development</h3><p>Development teams are experimenting with AI-assisted coding, testing, documentation, and product prototyping.</p><div class="career-card-bottom"><span>Developer tools · Quality · Workflow</span></div></article>
+</div>
 
-## How to evaluate a trend
-
-Look for evidence from multiple credible sources. Separate measured outcomes from forecasts, identify the date and geography of each statistic, and note uncertainty or limitations.
+<div class="career-section-heading compare-heading"><div><div class="career-eyebrow">SEPARATE SIGNAL FROM HYPE</div><h2>How to evaluate a trend</h2></div><p>Strong research distinguishes what has already been measured from what is still a prediction.</p></div>
+<div class="career-criteria">
+  <div><span>01</span><strong>Find evidence</strong><p>Use original research, government data, and credible industry sources.</p></div>
+  <div><span>02</span><strong>Check the date</strong><p>Record when the information was published and which period it describes.</p></div>
+  <div><span>03</span><strong>Set the scope</strong><p>Identify the industry, geography, sample, and population behind a claim.</p></div>
+  <div><span>04</span><strong>Note uncertainty</strong><p>Label forecasts clearly and compare them with observed outcomes.</p></div>
+</div>
+<div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research standard</strong><p>A trend is not automatically universal. Explain where it is happening, who is affected, and what evidence supports the conclusion.</p></div></div>
