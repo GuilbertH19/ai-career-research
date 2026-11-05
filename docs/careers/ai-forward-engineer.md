@@ -41,4 +41,11 @@ description: Explore the responsibilities, skills, tools, and career pathway ass
   <div><span>03</span><strong>Show the process</strong><p>Document what you built, how you validated it, and where human judgment was important.</p></div>
 </div>
 
+<div class="career-section-heading"><div><div class="career-eyebrow">COLLEGE MAJORS</div><h2>Degrees that can lead to this role</h2></div><p>This AI-native software role rewards strong product-building skills more than one specific degree title.</p></div>
+<div class="role-skill-panels">
+  <div><strong>Closest technical majors</strong><p>Computer Science, Software Engineering, Computer Engineering, Information Technology, and Artificial Intelligence.</p></div>
+  <div><strong>Product and design majors</strong><p>Human-Computer Interaction, Information Systems, Interaction Design, and User Experience Design, supported by substantial programming coursework.</p></div>
+  <div><strong>Additional pathways</strong><p>Data Science, Applied Mathematics, or Digital Product Development can be useful when paired with software engineering fundamentals.</p></div>
+</div>
+
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research note</strong><p>AI Forward Engineer is a relatively new and inconsistently defined title. Compare actual job descriptions instead of assuming every company uses the term in the same way.</p></div></div>
