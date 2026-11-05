@@ -26,6 +26,7 @@ export default defineConfig({
           { text: 'AI Engineer', link: '/careers/ai-engineer' },
           { text: 'AI Agent Engineer', link: '/careers/ai-agent-engineer' },
           { text: 'AI Forward Engineer', link: '/careers/ai-forward-engineer' },
+          { text: 'AI Forward Deployed Engineer', link: '/careers/ai-forward-deployed-engineer' },
           { text: 'AI Solutions Architect', link: '/careers/ai-solutions-architect' }
         ]}
       ],
