@@ -128,3 +128,23 @@
   .role-pathway > div { min-height: auto; border-right: 0; border-bottom: 1px solid var(--vp-c-divider); }
   .role-pathway > div:last-child { border-bottom: 0; }
 }
+
+
+/* Interactive skill directory and detailed skill profiles */
+.skill-link { cursor: pointer; }
+.skill-link:hover { text-decoration: none !important; }
+.skill-card-cta { display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:14px; border-top:1px solid var(--vp-c-divider); color:#aab4ff; font-size:12px; font-weight:700; }
+.skill-card-cta strong { font-size:18px; }
+.skill-detail-panel { margin:20px 0 36px; padding:25px 27px; border:1px solid var(--vp-c-divider); border-radius:15px; background:linear-gradient(145deg, rgba(32,38,57,.72), rgba(22,26,39,.82)); }
+.skill-detail-panel p { margin:0; color:var(--vp-c-text-2); font-size:15px; line-height:1.85; }
+.skill-project { border-left:3px solid var(--vp-c-brand-1); }
+.skill-project .career-eyebrow { margin-bottom:12px; }
+.skill-concept-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:20px 0 36px; }
+.skill-concept-grid > div { display:flex; align-items:center; gap:13px; min-height:72px; padding:15px 17px; border:1px solid var(--vp-c-divider); border-radius:11px; background:rgba(28,33,49,.48); }
+.skill-concept-grid span { color:#8998ff; font-size:11px; font-weight:800; }
+.skill-concept-grid strong { color:var(--vp-c-text-1); font-size:13px; }
+.skill-back-link { margin:34px 0; padding-top:20px; border-top:1px solid var(--vp-c-divider); font-size:13px; }
+.skill-back-link a { color:#aab4ff; text-decoration:none; }
+.skill-back-link a:hover { color:#fff; }
+@media(max-width:760px) { .skill-concept-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .skill-concept-grid { grid-template-columns:1fr; } }
