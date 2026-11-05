@@ -161,13 +161,14 @@
 @media(max-width:560px) { .resource-source-card { align-items:flex-start; flex-direction:column; } }
 
 
-/* MINIMAL EDITORIAL PALETTE — warm white, charcoal, and soft gray */
-:root,
-.dark {
+
+/* Functional light / dark appearance palettes */
+:root {
+  color-scheme: light;
   --vp-c-brand-1: #454545;
   --vp-c-brand-2: #333333;
   --vp-c-brand-3: #222222;
-  --vp-c-brand-soft: rgba(40, 40, 40, .07);
+  --vp-c-brand-soft: rgba(40,40,40,.07);
   --vp-c-bg: #f7f7f5;
   --vp-c-bg-alt: #f0f0ed;
   --vp-c-bg-elv: #ffffff;
@@ -175,71 +176,88 @@
   --vp-c-text-1: #202020;
   --vp-c-text-2: #666660;
   --vp-c-text-3: #898982;
-  --vp-c-divider: rgba(35, 35, 30, .12);
+  --vp-c-divider: rgba(35,35,30,.12);
   --vp-c-gutter: #e7e7e3;
   --vp-home-hero-name-color: #202020;
-  color-scheme: light;
 }
-html, body { background: #f7f7f5 !important; color: #202020 !important; }
+.dark {
+  color-scheme: dark;
+  --vp-c-brand-1: #d0d0ca;
+  --vp-c-brand-2: #e2e2dc;
+  --vp-c-brand-3: #f2f2ed;
+  --vp-c-brand-soft: rgba(235,235,225,.09);
+  --vp-c-bg: #171715;
+  --vp-c-bg-alt: #1d1d1a;
+  --vp-c-bg-elv: #242421;
+  --vp-c-bg-soft: #22221f;
+  --vp-c-text-1: #f0f0eb;
+  --vp-c-text-2: #b6b6ae;
+  --vp-c-text-3: #92928a;
+  --vp-c-divider: rgba(235,235,225,.14);
+  --vp-c-gutter: #111110;
+  --vp-home-hero-name-color: #f0f0eb;
+}
+html, body { background: var(--vp-c-bg) !important; color: var(--vp-c-text-1) !important; transition: background-color .2s ease, color .2s ease; }
 .VPNav, .VPNavBar, .VPNavBar .content, .VPNavBar .divider,
 .VPLocalNav, .VPSidebar, .VPMenu, .VPDocAside,
-.VPDoc .content-container, .VPContent { background-color: #f7f7f5 !important; }
+.VPDoc .content-container, .VPContent, .VPFooter {
+  background-color: var(--vp-c-bg) !important;
+}
 .VPNavBarTitle .title, .VPNavBarMenuLink, .VPNavBarMenu .VPNavBarMenuLink,
 .VPSidebar .title, .VPSidebarItem .text, .VPDoc h1, .VPDoc h2,
-.VPDoc h3, .VPDoc h4 { color: #202020; }
+.VPDoc h3, .VPDoc h4 { color: var(--vp-c-text-1); }
 .VPNavBarMenuLink.active, .VPNavBarMenuLink:hover,
 .VPSidebarItem.is-active > .item .text,
-.VPSidebarItem.is-active .link > .text { color: #202020 !important; }
+.VPSidebarItem.is-active .link > .text { color: var(--vp-c-text-1) !important; }
 .VPHero .name {
-  color: #202020 !important;
-  -webkit-text-fill-color: #202020 !important;
+  color: var(--vp-c-text-1) !important;
+  -webkit-text-fill-color: var(--vp-c-text-1) !important;
+  background: none !important;
 }
-.VPHero .text { color: #343434 !important; }
-.VPHero .tagline { color: #6b6b65 !important; }
+.VPHero .text { color: var(--vp-c-text-1) !important; }
+.VPHero .tagline { color: var(--vp-c-text-2) !important; }
 .VPButton.brand, .VPButton.brand:hover {
-  color: #fff !important; background: #252525 !important; border-color: #252525 !important;
+  color: var(--vp-c-bg) !important; background: var(--vp-c-text-1) !important; border-color: var(--vp-c-text-1) !important;
 }
-.VPButton.alt { color: #252525 !important; background: #e9e9e5 !important; border-color: #e9e9e5 !important; }
+.VPButton.alt { color: var(--vp-c-text-1) !important; background: var(--vp-c-bg-soft) !important; border-color: var(--vp-c-divider) !important; }
 .VPFeature, .home-card, .career-card, .role-overview > div,
 .role-skill-panels > div, .skill-detail-panel, .skill-concept-grid > div,
 .role-pathway > div, .career-criteria > div, .resource-checklist > div,
 .career-research-note, .resource-source-card {
-  background: #ffffff !important;
-  border-color: #e3e3de !important;
+  background: var(--vp-c-bg-elv) !important;
+  border-color: var(--vp-c-divider) !important;
   box-shadow: none !important;
 }
 .career-card:hover, .home-card:hover, .VPFeature:hover {
-  background: #f0f0ed !important;
-  border-color: #bdbdb5 !important;
+  background: var(--vp-c-bg-soft) !important;
+  border-color: var(--vp-c-text-3) !important;
 }
 .career-card h3, .home-card strong, .career-criteria strong,
 .role-overview strong, .role-skill-panels strong,
 .role-detail-grid strong, .role-pathway strong,
 .skill-concept-grid strong, .resource-source-card strong {
-  color: #202020 !important;
+  color: var(--vp-c-text-1) !important;
 }
 .career-card p, .home-card > span:last-child, .role-lede,
 .skill-detail-panel p, .career-section-heading > p,
 .career-criteria p, .resource-checklist p,
-.career-research-note p { color: #666660 !important; }
+.career-research-note p { color: var(--vp-c-text-2) !important; }
 .career-eyebrow, .career-number, .role-label,
 .role-detail-grid > div > span, .role-pathway > div > span,
 .skill-concept-grid span, .career-criteria span,
-.resource-checklist span { color: #777770 !important; }
-.career-eyebrow span { color: #999990 !important; }
+.resource-checklist span { color: var(--vp-c-text-3) !important; }
+.career-eyebrow span { color: var(--vp-c-text-3) !important; }
 .career-intro-meta span, .role-tool-row span, .skill-tags span {
-  color: #55554f !important;
-  background: #f3f3f0 !important;
-  border-color: #e3e3de !important;
+  color: var(--vp-c-text-2) !important;
+  background: var(--vp-c-bg-soft) !important;
+  border-color: var(--vp-c-divider) !important;
 }
 .skill-card-cta, .career-card-bottom strong, .career-card-bottom a,
 .resource-source-card a, .skill-back-link a {
-  color: #41413c !important;
+  color: var(--vp-c-text-1) !important;
 }
-.skill-project { border-left-color: #777770 !important; }
-.career-note-mark { color: #55554f !important; background: #eeeeeb !important; }
-a { text-decoration-color: #a5a59d; }
-a:hover { color: #111 !important; }
-.VPDoc a { color: #41413c; }
-.VPDoc a:hover { color: #111; }
-.VPFooter { background: #f7f7f5 !important; }
+.skill-project { border-left-color: var(--vp-c-text-3) !important; }
+.career-note-mark { color: var(--vp-c-text-1) !important; background: var(--vp-c-bg-soft) !important; }
+a { text-decoration-color: var(--vp-c-text-3); }
+a:hover, .VPDoc a:hover { color: var(--vp-c-text-1) !important; }
+.VPDoc a { color: var(--vp-c-text-1); }
