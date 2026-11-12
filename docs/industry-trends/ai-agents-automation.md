@@ -24,7 +24,7 @@ description: How agent-based systems combine models, tools, and multi-step workf
 
 <div class="career-section-heading"><div><div class="career-eyebrow">RELATED AREAS</div><h2>Who may use this</h2></div><p>Examples of roles, teams, or research areas connected to this topic.</p></div>
 <div class="role-tool-row"><span>AI Agent Engineers</span><span>Backend Engineers</span><span>Product teams</span><span>Security specialists</span><span>Automation engineers</span></div>
-<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>undefined</strong></div><a href="undefined" target="_blank" rel="noreferrer">Visit source ↗</a></div>
+<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>The State of AI in 2025: Agents, Innovation, and Transformation</strong><p>Published: November 5, 2025</p></div><a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025" target="_blank" rel="noopener noreferrer">Read research ↗</a></div>
 
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research standard</strong><p>Record the publication date, geographic scope, methodology, and limitations of every source. Separate observed evidence from forecasts and opinion.</p></div></div>
 <p class="skill-back-link"><a href="/ai-career-research/industry-trends/">← Back to Industry Trends</a></p>
