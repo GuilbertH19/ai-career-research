@@ -21,6 +21,19 @@ description: Examine how AI is changing products, work, and organizations.
   <a class="career-card trend-card topic-link" href="/ai-career-research/industry-trends/ai-native-development"><div class="career-card-top"><span class="career-number">06</span><span class="career-type">ENGINEERING PRACTICE</span></div><h3>AI-Native Software Development</h3><p>How teams use AI in coding, testing, documentation, and product development.</p><div class="skill-card-cta"><span>Explore trend</span><strong>↗</strong></div></a>
 </div>
 
+<div class="career-section-heading">
+  <div><div class="career-eyebrow">RESEARCH &amp; SOURCES</div><h2>Research behind the trends</h2></div>
+  <p>Explore direct research and reports supporting each of the six topics. Publication dates are included so readers can assess how current each source is.</p>
+</div>
+<div class="career-criteria career-source-grid">
+  <div><span>01 · BUSINESS ADOPTION</span><strong>Generative AI at Work</strong><p><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report" target="_blank" rel="noopener noreferrer">Stanford HAI — The 2026 AI Index Report</a><br>Published: April 13, 2026</p></div>
+  <div><span>02 · EMERGING SYSTEMS</span><strong>AI Agents &amp; Automation</strong><p><a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025" target="_blank" rel="noopener noreferrer">McKinsey — The State of AI in 2025: Agents, Innovation, and Transformation</a><br>Published: November 5, 2025</p></div>
+  <div><span>03 · TALENT &amp; SKILLS</span><strong>Demand for AI Capabilities</strong><p><a href="https://www.oecd.org/en/publications/how-is-ai-changing-the-way-workers-perform-their-jobs-and-the-skills-they-require_8dc62c72-en.html" target="_blank" rel="noopener noreferrer">OECD — How Is AI Changing the Way Workers Perform Their Jobs and the Skills They Require?</a><br>Published: November 29, 2024</p></div>
+  <div><span>04 · TRUST &amp; GOVERNANCE</span><strong>Privacy, Security &amp; Responsibility</strong><p><a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer">NIST — Artificial Intelligence Risk Management Framework: Generative AI Profile</a><br>Published: July 26, 2024</p></div>
+  <div><span>05 · INDUSTRY APPLICATIONS</span><strong>AI Across Industries</strong><p><a href="https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en.html" target="_blank" rel="noopener noreferrer">OECD — Digital Economy and Society Outlook 2026</a><br>Published: November 5, 2026</p></div>
+  <div><span>06 · ENGINEERING PRACTICE</span><strong>AI-Native Software Development</strong><p><a href="https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/" target="_blank" rel="noopener noreferrer">GitHub — Octoverse: A New Developer Joins GitHub Every Second as AI Leads TypeScript to #1</a><br>Published: October 28, 2025 (updated February 28, 2026)</p></div>
+</div>
+
 <div class="career-section-heading compare-heading"><div><div class="career-eyebrow">SEPARATE SIGNAL FROM HYPE</div><h2>How to evaluate a trend</h2></div><p>Strong research distinguishes what has already been measured from what is still a prediction.</p></div>
 <div class="career-criteria">
   <div><span>01</span><strong>Find evidence</strong><p>Use original research, government data, and credible industry sources.</p></div>
