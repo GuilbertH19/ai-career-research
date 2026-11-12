@@ -24,7 +24,7 @@ description: How organizations are applying generative AI to research, communica
 
 <div class="career-section-heading"><div><div class="career-eyebrow">RELATED AREAS</div><h2>Who may use this</h2></div><p>Examples of roles, teams, or research areas connected to this topic.</p></div>
 <div class="role-tool-row"><span>Operations teams</span><span>Product managers</span><span>AI Engineers</span><span>Data analysts</span><span>AI governance specialists</span></div>
-<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>Stanford AI Index 2025: State of AI in 10 Charts</strong><p>Published: April 7, 2025</p></div><a href="https://hai.stanford.edu/news/ai-index-2025-state-of-ai-10-charts" target="_blank" rel="noopener noreferrer">Read research ↗</a></div>
+<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>The 2026 AI Index Report</strong><p>Published: April 13, 2026</p></div><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report" target="_blank" rel="noopener noreferrer">Read research ↗</a></div>
 
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research standard</strong><p>Record the publication date, geographic scope, methodology, and limitations of every source. Separate observed evidence from forecasts and opinion.</p></div></div>
 <p class="skill-back-link"><a href="/ai-career-research/industry-trends/">← Back to Industry Trends</a></p>
