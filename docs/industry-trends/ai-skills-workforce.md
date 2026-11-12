@@ -24,7 +24,7 @@ description: How AI-related capabilities are appearing across technical and nont
 
 <div class="career-section-heading"><div><div class="career-eyebrow">RELATED AREAS</div><h2>Who may use this</h2></div><p>Examples of roles, teams, or research areas connected to this topic.</p></div>
 <div class="role-tool-row"><span>Recruiters</span><span>Learning and development teams</span><span>Career researchers</span><span>Workforce analysts</span><span>Hiring managers</span></div>
-<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>undefined</strong></div><a href="undefined" target="_blank" rel="noreferrer">Visit source ↗</a></div>
+<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>How is AI changing the way workers perform their jobs and the skills they require?</strong><p>Published: November 29, 2024</p></div><a href="https://www.oecd.org/en/publications/how-is-ai-changing-the-way-workers-perform-their-jobs-and-the-skills-they-require_8dc62c72-en.html" target="_blank" rel="noopener noreferrer">Read research ↗</a></div>
 
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research standard</strong><p>Record the publication date, geographic scope, methodology, and limitations of every source. Separate observed evidence from forecasts and opinion.</p></div></div>
 <p class="skill-back-link"><a href="/ai-career-research/industry-trends/">← Back to Industry Trends</a></p>
