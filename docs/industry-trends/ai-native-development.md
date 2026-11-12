@@ -24,7 +24,7 @@ description: How software teams are incorporating AI into coding, testing, docum
 
 <div class="career-section-heading"><div><div class="career-eyebrow">RELATED AREAS</div><h2>Who may use this</h2></div><p>Examples of roles, teams, or research areas connected to this topic.</p></div>
 <div class="role-tool-row"><span>Software engineers</span><span>AI Forward Engineers</span><span>Developer experience teams</span><span>Engineering managers</span><span>QA specialists</span></div>
-<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>undefined</strong></div><a href="undefined" target="_blank" rel="noreferrer">Visit source ↗</a></div>
+<div class="resource-source-card"><div><span class="career-eyebrow">STARTING SOURCE</span><strong>Octoverse: A New Developer Joins GitHub Every Second as AI Leads TypeScript to #1</strong><p>Published: October 28, 2025</p></div><a href="https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/" target="_blank" rel="noopener noreferrer">Read research ↗</a></div>
 
 <div class="career-research-note"><div class="career-note-mark">i</div><div><strong>Research standard</strong><p>Record the publication date, geographic scope, methodology, and limitations of every source. Separate observed evidence from forecasts and opinion.</p></div></div>
 <p class="skill-back-link"><a href="/ai-career-research/industry-trends/">← Back to Industry Trends</a></p>
